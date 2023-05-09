@@ -61,3 +61,54 @@ section {
 ### Google Fonts
 
 [Google Fonts](https://fonts.google.com/) is a library of free licensed font families, an interactive web directory for browsing the library, and APIs for conveniently using the fonts via CSS and Android.
+
+---
+
+### CSS Selectors
+
+- CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+#### Universal Selector
+- The universal selector (*) selects all HTML elements on the page.
+
+```css
+* {
+  color: red;
+}
+```
+
+#### Element Selector
+- The element selector selects HTML elements based on the element name.
+
+```css
+p {
+  color: red;
+}
+```
+#### Class Selector
+- The class selector selects HTML elements with a specific class attribute.
+
+```css
+.blue {
+  color: blue;
+}
+```
+
+#### ID Selector
+- The id selector uses the id attribute of an HTML element to select a specific element.
+
+```css
+#green {
+  color: green;
+}
+```
+
+#### Attribute Selector
+- The attribute selector selects HTML elements with a specific attribute value.
+
+```css
+a[target="_blank"] {
+  background-color: yellow;
+}
+```
+
